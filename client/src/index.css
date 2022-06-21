@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quattrocento&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.active-area {
+  background-color: white;
+}
+
+#navbar-background-color {
+  background-color: #198754;
+}
+
+.gilmore-font {
+  font-family: 'Quattrocento', serif;
+}
+
+.leaderboard {
+  font-family: 'Press Start 2P', cursive;
+}

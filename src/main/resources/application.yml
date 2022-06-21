@@ -1,0 +1,20 @@
+# src/main/resources/application.yml
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-kl5rzwe1.us.auth0.com/
+      client:
+        registration:
+          auth0:
+            client-id: 
+            client-secret: 
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          auth0:
+            # trailing slash is important!
+            issuer-uri: https://dev-kl5rzwe1.us.auth0.com/
